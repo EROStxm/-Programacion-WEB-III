@@ -8,7 +8,7 @@ const miFuncion =(A)=>{
     let impares=[];
     let pa=0;
     let im=0;
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < A.length; i++) {
         if (A[i]%2==0) {
             pares[pa]=A[i];
             pa++;
